@@ -11,6 +11,12 @@ pod 'ModernUpnpx', :git => https://github.com/gpinigin/ModernUpnpx.git
 * [AVTransport](http://www.upnp.org/specs/av/UPnP-av-AVTransport-v1-Service.pdf)
 * [ContentDirectory](http://www.upnp.org/specs/av/UPnP-av-ContentDirectory-v1-Service.pdf)
 * [ConnectionManager](http://www.upnp.org/specs/av/UPnP-av-ConnectionManager-v1-Service.pdf)
+ 
+
+Goal:
+ * make upnpx library truly asynchronous
+ * modern objective-c syntax + completion blocks
+ * Factor code a bit, fix upnp errors handling
 
 
 Credits
