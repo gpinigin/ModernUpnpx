@@ -10,15 +10,17 @@
 		15055E4213913F0A003DE49F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15055E4113913F0A003DE49F /* UIKit.framework */; };
 		15055E4413913F0A003DE49F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15055E4313913F0A003DE49F /* Foundation.framework */; };
 		15055E4613913F0A003DE49F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15055E4513913F0A003DE49F /* CoreGraphics.framework */; };
-		15055E4C13913F0A003DE49F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15055E4A13913F0A003DE49F /* InfoPlist.strings */; };
-		15055E4F13913F0A003DE49F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E4E13913F0A003DE49F /* main.m */; };
-		15055E5213913F0A003DE49F /* upnpxdemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E5113913F0A003DE49F /* upnpxdemoAppDelegate.m */; };
-		15055E5513913F0A003DE49F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15055E5313913F0A003DE49F /* MainWindow.xib */; };
-		15055E5813913F0A003DE49F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15055E5713913F0A003DE49F /* RootViewController.m */; };
-		15055E5B13913F0A003DE49F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15055E5913913F0A003DE49F /* RootViewController.xib */; };
-		155126E613BF4AF90042DEBF /* FolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155126E413BF4AF90042DEBF /* FolderViewController.m */; };
-		155126E713BF4AF90042DEBF /* FolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155126E513BF4AF90042DEBF /* FolderViewController.xib */; };
-		155AC14F1502F87C00817BD9 /* PlayBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 155AC14E1502F87C00817BD9 /* PlayBack.m */; };
+		1ED3A1F19BCA4809AD587189 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6376B8F0299E476AA807EF9A /* libPods.a */; };
+		A79D27661808660A003BF0C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A79D27541808660A003BF0C6 /* InfoPlist.strings */; };
+		A79D27671808660A003BF0C6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79D27561808660A003BF0C6 /* MainWindow.xib */; };
+		A79D27681808660A003BF0C6 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79D27581808660A003BF0C6 /* RootViewController.xib */; };
+		A79D27691808660A003BF0C6 /* FolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D275B1808660A003BF0C6 /* FolderViewController.m */; };
+		A79D276A1808660A003BF0C6 /* FolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79D275C1808660A003BF0C6 /* FolderViewController.xib */; };
+		A79D276B1808660A003BF0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D275D1808660A003BF0C6 /* main.m */; };
+		A79D276C1808660A003BF0C6 /* PlayBack.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D275F1808660A003BF0C6 /* PlayBack.m */; };
+		A79D276D1808660A003BF0C6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D27611808660A003BF0C6 /* RootViewController.m */; };
+		A79D276E1808660A003BF0C6 /* upnpxdemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79D27621808660A003BF0C6 /* upnpxdemo-Info.plist */; };
+		A79D276F1808660A003BF0C6 /* upnpxdemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D27651808660A003BF0C6 /* upnpxdemoAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,21 +28,23 @@
 		15055E4113913F0A003DE49F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		15055E4313913F0A003DE49F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15055E4513913F0A003DE49F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		15055E4913913F0A003DE49F /* upnpxdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "upnpxdemo-Info.plist"; sourceTree = "<group>"; };
-		15055E4B13913F0A003DE49F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		15055E4D13913F0A003DE49F /* upnpxdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "upnpxdemo-Prefix.pch"; sourceTree = "<group>"; };
-		15055E4E13913F0A003DE49F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		15055E5013913F0A003DE49F /* upnpxdemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = upnpxdemoAppDelegate.h; sourceTree = "<group>"; };
-		15055E5113913F0A003DE49F /* upnpxdemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = upnpxdemoAppDelegate.m; sourceTree = "<group>"; };
-		15055E5413913F0A003DE49F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		15055E5613913F0A003DE49F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		15055E5713913F0A003DE49F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		15055E5A13913F0A003DE49F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
-		155126E313BF4AF90042DEBF /* FolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewController.h; sourceTree = "<group>"; };
-		155126E413BF4AF90042DEBF /* FolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewController.m; sourceTree = "<group>"; };
-		155126E513BF4AF90042DEBF /* FolderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FolderViewController.xib; sourceTree = "<group>"; };
-		155AC14D1502F87C00817BD9 /* PlayBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayBack.h; sourceTree = "<group>"; };
-		155AC14E1502F87C00817BD9 /* PlayBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayBack.m; sourceTree = "<group>"; };
+		6376B8F0299E476AA807EF9A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		705401AEEEE140B59CBD406D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		A79D27551808660A003BF0C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		A79D27571808660A003BF0C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainWindow.xib; sourceTree = "<group>"; };
+		A79D27591808660A003BF0C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = RootViewController.xib; sourceTree = "<group>"; };
+		A79D275A1808660A003BF0C6 /* FolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewController.h; sourceTree = "<group>"; };
+		A79D275B1808660A003BF0C6 /* FolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewController.m; sourceTree = "<group>"; };
+		A79D275C1808660A003BF0C6 /* FolderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FolderViewController.xib; sourceTree = "<group>"; };
+		A79D275D1808660A003BF0C6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A79D275E1808660A003BF0C6 /* PlayBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayBack.h; sourceTree = "<group>"; };
+		A79D275F1808660A003BF0C6 /* PlayBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayBack.m; sourceTree = "<group>"; };
+		A79D27601808660A003BF0C6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A79D27611808660A003BF0C6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A79D27621808660A003BF0C6 /* upnpxdemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "upnpxdemo-Info.plist"; sourceTree = "<group>"; };
+		A79D27631808660A003BF0C6 /* upnpxdemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "upnpxdemo-Prefix.pch"; sourceTree = "<group>"; };
+		A79D27641808660A003BF0C6 /* upnpxdemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnpxdemoAppDelegate.h; sourceTree = "<group>"; };
+		A79D27651808660A003BF0C6 /* upnpxdemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = upnpxdemoAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 				15055E4213913F0A003DE49F /* UIKit.framework in Frameworks */,
 				15055E4413913F0A003DE49F /* Foundation.framework in Frameworks */,
 				15055E4613913F0A003DE49F /* CoreGraphics.framework in Frameworks */,
+				1ED3A1F19BCA4809AD587189 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +65,12 @@
 		15055E3213913F0A003DE49F = {
 			isa = PBXGroup;
 			children = (
-				15055E4713913F0A003DE49F /* upnpxdemo */,
+				A79D277118086628003BF0C6 /* Classes */,
+				A79D277018086610003BF0C6 /* Supporting files */,
+				A79D277218086639003BF0C6 /* Resources */,
 				15055E4013913F0A003DE49F /* Frameworks */,
 				15055E3E13913F0A003DE49F /* Products */,
+				705401AEEEE140B59CBD406D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,38 +88,53 @@
 				15055E4113913F0A003DE49F /* UIKit.framework */,
 				15055E4313913F0A003DE49F /* Foundation.framework */,
 				15055E4513913F0A003DE49F /* CoreGraphics.framework */,
+				6376B8F0299E476AA807EF9A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		15055E4713913F0A003DE49F /* upnpxdemo */ = {
+		A79D27531808660A003BF0C6 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				15055E5013913F0A003DE49F /* upnpxdemoAppDelegate.h */,
-				15055E5113913F0A003DE49F /* upnpxdemoAppDelegate.m */,
-				15055E5313913F0A003DE49F /* MainWindow.xib */,
-				15055E5613913F0A003DE49F /* RootViewController.h */,
-				15055E5713913F0A003DE49F /* RootViewController.m */,
-				15055E5913913F0A003DE49F /* RootViewController.xib */,
-				15055E4813913F0A003DE49F /* Supporting Files */,
-				155126E313BF4AF90042DEBF /* FolderViewController.h */,
-				155126E413BF4AF90042DEBF /* FolderViewController.m */,
-				155126E513BF4AF90042DEBF /* FolderViewController.xib */,
-				155AC14D1502F87C00817BD9 /* PlayBack.h */,
-				155AC14E1502F87C00817BD9 /* PlayBack.m */,
+				A79D27541808660A003BF0C6 /* InfoPlist.strings */,
+				A79D27561808660A003BF0C6 /* MainWindow.xib */,
+				A79D27581808660A003BF0C6 /* RootViewController.xib */,
 			);
-			path = upnpxdemo;
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
-		15055E4813913F0A003DE49F /* Supporting Files */ = {
+		A79D277018086610003BF0C6 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				15055E4913913F0A003DE49F /* upnpxdemo-Info.plist */,
-				15055E4A13913F0A003DE49F /* InfoPlist.strings */,
-				15055E4D13913F0A003DE49F /* upnpxdemo-Prefix.pch */,
-				15055E4E13913F0A003DE49F /* main.m */,
+				A79D275D1808660A003BF0C6 /* main.m */,
+				A79D27621808660A003BF0C6 /* upnpxdemo-Info.plist */,
+				A79D27631808660A003BF0C6 /* upnpxdemo-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A79D277118086628003BF0C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A79D275A1808660A003BF0C6 /* FolderViewController.h */,
+				A79D275B1808660A003BF0C6 /* FolderViewController.m */,
+				A79D275E1808660A003BF0C6 /* PlayBack.h */,
+				A79D275F1808660A003BF0C6 /* PlayBack.m */,
+				A79D27601808660A003BF0C6 /* RootViewController.h */,
+				A79D27611808660A003BF0C6 /* RootViewController.m */,
+				A79D27641808660A003BF0C6 /* upnpxdemoAppDelegate.h */,
+				A79D27651808660A003BF0C6 /* upnpxdemoAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A79D277218086639003BF0C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A79D27531808660A003BF0C6 /* en.lproj */,
+				A79D275C1808660A003BF0C6 /* FolderViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15055E5E13913F0A003DE49F /* Build configuration list for PBXNativeTarget "upnpxdemo" */;
 			buildPhases = (
+				6382BDCD776A40028F4257BC /* Check Pods Manifest.lock */,
 				15055E3913913F0A003DE49F /* Sources */,
 				15055E3A13913F0A003DE49F /* Frameworks */,
 				15055E3B13913F0A003DE49F /* Resources */,
+				45D02A63E4B843D6BF0F75CF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,7 +166,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = "Bruno Keymolen";
+				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = 15055E3713913F0A003DE49F /* Build configuration list for PBXProject "upnpxdemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -165,51 +190,85 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15055E4C13913F0A003DE49F /* InfoPlist.strings in Resources */,
-				15055E5513913F0A003DE49F /* MainWindow.xib in Resources */,
-				15055E5B13913F0A003DE49F /* RootViewController.xib in Resources */,
-				155126E713BF4AF90042DEBF /* FolderViewController.xib in Resources */,
+				A79D276A1808660A003BF0C6 /* FolderViewController.xib in Resources */,
+				A79D27671808660A003BF0C6 /* MainWindow.xib in Resources */,
+				A79D27661808660A003BF0C6 /* InfoPlist.strings in Resources */,
+				A79D276E1808660A003BF0C6 /* upnpxdemo-Info.plist in Resources */,
+				A79D27681808660A003BF0C6 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45D02A63E4B843D6BF0F75CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6382BDCD776A40028F4257BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15055E3913913F0A003DE49F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15055E4F13913F0A003DE49F /* main.m in Sources */,
-				15055E5213913F0A003DE49F /* upnpxdemoAppDelegate.m in Sources */,
-				15055E5813913F0A003DE49F /* RootViewController.m in Sources */,
-				155126E613BF4AF90042DEBF /* FolderViewController.m in Sources */,
-				155AC14F1502F87C00817BD9 /* PlayBack.m in Sources */,
+				A79D276B1808660A003BF0C6 /* main.m in Sources */,
+				A79D27691808660A003BF0C6 /* FolderViewController.m in Sources */,
+				A79D276F1808660A003BF0C6 /* upnpxdemoAppDelegate.m in Sources */,
+				A79D276D1808660A003BF0C6 /* RootViewController.m in Sources */,
+				A79D276C1808660A003BF0C6 /* PlayBack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		15055E4A13913F0A003DE49F /* InfoPlist.strings */ = {
+		A79D27541808660A003BF0C6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15055E4B13913F0A003DE49F /* en */,
+				A79D27551808660A003BF0C6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		15055E5313913F0A003DE49F /* MainWindow.xib */ = {
+		A79D27561808660A003BF0C6 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15055E5413913F0A003DE49F /* en */,
+				A79D27571808660A003BF0C6 /* en */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		15055E5913913F0A003DE49F /* RootViewController.xib */ = {
+		A79D27581808660A003BF0C6 /* RootViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15055E5A13913F0A003DE49F /* en */,
+				A79D27591808660A003BF0C6 /* en */,
 			);
 			name = RootViewController.xib;
 			sourceTree = "<group>";
@@ -251,6 +310,7 @@
 		};
 		15055E5F13913F0A003DE49F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705401AEEEE140B59CBD406D /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -258,9 +318,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "upnpxdemo/upnpxdemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "upnpxdemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "upnpxdemo/upnpxdemo-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/upnpxdemo-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../upnpx/build/Debug-iphonesimulator\"",
@@ -280,15 +340,16 @@
 		};
 		15055E6013913F0A003DE49F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705401AEEEE140B59CBD406D /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Bruno Keymolen (KR5XJUP8M2)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "upnpxdemo/upnpxdemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "upnpxdemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "upnpxdemo/upnpxdemo-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/upnpxdemo-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../upnpx/build/Debug-iphonesimulator\"",
