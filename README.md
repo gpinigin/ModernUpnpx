@@ -22,3 +22,8 @@ Goal:
 Credits
 ==========
 The original upnpx library can be found at [Google Code](http://code.google.com/p/upnpx/)
+
+### Authors of Upnpx
+* Bruno Keymolen
+* Jonathan Guan
+* Mujtaba Hassanpur
