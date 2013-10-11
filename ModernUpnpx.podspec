@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   s.source       = { :git => "https://github.com/gpinigin/ModernUpnpx.git", :tag => "1.0.0" }
   
-  s.ios.source_files =  'src/{api,common,eventserver,ssdp,upnp}/*.{h,m,mm,c,cpp}', 'src/port/ios/*.{h,m}'
-  s.osx.source_files =  'src/{api,common,eventserver,ssdp,upnp}/*.{h,m,mm,c,cpp}', 'src/port/macos/*.{h.m}'
+  s.ios.source_files =  'ModernUpnpx/{api,common,eventserver,ssdp,upnp}/*.{h,m,mm,c,cpp}', 'ModernUpnpx/port/ios/*.{h,m}'
+  s.osx.source_files =  'ModernUpnpx/{api,common,eventserver,ssdp,upnp}/*.{h,m,mm,c,cpp}', 'ModernUpnpx/port/macos/*.{h.m}'
   s.xcconfig         =  { 'OTHER_LDFLAGS' => '-lstdc++' }
 end
