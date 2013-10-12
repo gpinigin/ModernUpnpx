@@ -321,11 +321,7 @@
 				GCC_PREFIX_HEADER = "upnpxdemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "$(SRCROOT)/upnpxdemo-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../upnpx/build/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../upnpx/build/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-lstdc++",
 					"-all_load",
@@ -350,12 +346,7 @@
 				GCC_PREFIX_HEADER = "upnpxdemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "$(SRCROOT)/upnpxdemo-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../upnpx/build/Debug-iphonesimulator\"",
-					"\"$(SRCROOT)/../upnpx/build/Release-iphoneos\"",
-					"\"$(SRCROOT)/../upnpx/build/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-lstdc++",
 					"-all_load",

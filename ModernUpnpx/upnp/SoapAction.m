@@ -120,7 +120,7 @@
 		[self clearAllAssets];
 		NSString *responseGroupTag = [NSString stringWithFormat:@"%@Response", soapAction];
 		for (id key in output) {		
-			[self addAsset:[NSArray arrayWithObjects: @"Envelope", @"Body", responseGroupTag, (NSString*)key, nil] callfunction:nil functionObject:nil setStringValueFunction:@selector(setStringValueForFoundAsset:) setStringValueObject:self];
+			[self addAsset:@[@"Envelope", @"Body", responseGroupTag, (NSString*)key] callfunction:nil functionObject:nil setStringValueFunction:@selector(setStringValueForFoundAsset:) setStringValueObject:self];
 		}
 				
 		//uShare Issues here, can not handle names like 'Bj~rk

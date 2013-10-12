@@ -47,7 +47,7 @@
 
     UIBarButtonItem *ttitle = [[UIBarButtonItem alloc] initWithCustomView:self.titleLabel];
 
-    NSArray *items = [NSArray arrayWithObjects:ttitle, nil]; 
+    NSArray *items = @[ttitle]; 
     self.toolbarItems = items; 
     [ttitle release];
 }
