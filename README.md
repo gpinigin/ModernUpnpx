@@ -17,6 +17,7 @@ Goal:
  * make upnpx library truly asynchronous
  * modern objective-c syntax + completion blocks
  * Factor code a bit, fix upnp errors handling
+ * Modernize scdpgenerator
 
 
 Credits
