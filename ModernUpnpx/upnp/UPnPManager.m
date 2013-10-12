@@ -40,7 +40,6 @@ static UPnPManager *_upnpmanager = nil;
 
 @synthesize SSDP;
 @synthesize DB;
-@synthesize serviceFactory;
 @synthesize deviceFactory;
 @synthesize soapFactory;
 @synthesize upnpEvents;
@@ -60,7 +59,6 @@ static UPnPManager *_upnpmanager = nil;
     if (self) {
         upnpEvents = [[UPnPEvents alloc] init];
         soapFactory = [[SoapActionFactory alloc] init];
-        serviceFactory = [[ServiceFactory alloc] init];
         deviceFactory = [[DeviceFactory alloc] init];
         SSDP = [[SSDPDB_ObjC alloc] init];
         DB = [[UPnPDB alloc] initWithSSDP:SSDP]; 
@@ -78,7 +76,6 @@ static UPnPManager *_upnpmanager = nil;
 	[SSDP stopSSDP];
 	[SSDP release];
 	[DB release];
-	[serviceFactory release];
 	[deviceFactory release];
 	[soapFactory release];
 	[upnpEvents release];

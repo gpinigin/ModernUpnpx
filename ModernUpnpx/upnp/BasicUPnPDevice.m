@@ -35,10 +35,9 @@
 #import "BasicUPnPDevice.h"
 #import "UPnPManager.h"
 #import "BasicDeviceParser.h"
-#import "ServiceFactory.h"
 
 @interface BasicUPnPDevice()
-	-(void)syncServices;
+-(void)syncServices;
 @end
 
 
@@ -146,8 +145,9 @@
 		upnpService = [services objectForKey:[ssdpService urn]];
 		if(upnpService == nil){
 			//We don't have the service, create a new one
-			upnpService = [[[UPnPManager GetInstance] serviceFactory] allocServiceForSSDPService:ssdpService];
-			//we delay initialization of the service until we need it [upnpService process];  
+			upnpService = [[BasicUPnPService alloc] initWithSSDPDevice:ssdpService];
+
+			//we delay initialization of the service until we need it [upnpService process];
 			[toAdd setObject:upnpService forKey:[upnpService urn]];
             [upnpService release];
 		}else{
