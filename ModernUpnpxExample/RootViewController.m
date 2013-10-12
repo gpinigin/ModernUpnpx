@@ -25,7 +25,7 @@
     mDevices = [db rootDevices]; //BasicUPnPDevice
     [mDevices retain];
     
-    [db addObserver:(UPnPDBObserver*)self];
+    [db addObserver:self];
     
     //Optional; set User Agent
     [[[UPnPManager GetInstance] SSDP] setUserAgentProduct:@"upnpxdemo/1.0" andOS:@"OSX"];
