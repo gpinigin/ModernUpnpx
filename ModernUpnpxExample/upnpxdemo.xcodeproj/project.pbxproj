@@ -19,7 +19,6 @@
 		A79D276B1808660A003BF0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D275D1808660A003BF0C6 /* main.m */; };
 		A79D276C1808660A003BF0C6 /* PlayBack.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D275F1808660A003BF0C6 /* PlayBack.m */; };
 		A79D276D1808660A003BF0C6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D27611808660A003BF0C6 /* RootViewController.m */; };
-		A79D276E1808660A003BF0C6 /* upnpxdemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79D27621808660A003BF0C6 /* upnpxdemo-Info.plist */; };
 		A79D276F1808660A003BF0C6 /* upnpxdemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A79D27651808660A003BF0C6 /* upnpxdemoAppDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -165,7 +164,7 @@
 		15055E3413913F0A003DE49F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "";
 			};
 			buildConfigurationList = 15055E3713913F0A003DE49F /* Build configuration list for PBXProject "upnpxdemo" */;
@@ -193,7 +192,6 @@
 				A79D276A1808660A003BF0C6 /* FolderViewController.xib in Resources */,
 				A79D27671808660A003BF0C6 /* MainWindow.xib in Resources */,
 				A79D27661808660A003BF0C6 /* InfoPlist.strings in Resources */,
-				A79D276E1808660A003BF0C6 /* upnpxdemo-Info.plist in Resources */,
 				A79D27681808660A003BF0C6 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +277,6 @@
 		15055E5C13913F0A003DE49F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -289,6 +286,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -296,7 +294,6 @@
 		15055E5D13913F0A003DE49F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
