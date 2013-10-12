@@ -40,7 +40,7 @@
 -(void)dealloc{
 	
     if(mContentDirectory)
-        NSLog(@"[mContentDirectory retainCount]=%d", [mContentDirectory retainCount] );
+        NSLog(@"[mContentDirectory retainCount]=%lu", (unsigned long)[mContentDirectory retainCount] );
     
     
 	[mAvTransport release];
