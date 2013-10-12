@@ -62,8 +62,6 @@
 @synthesize albumArt;
 
 
-
-
 /*
  <container id="7" parentID="0" restricted="1" childCount="6">
 	 <dc:title>Audio</dc:title>
@@ -129,9 +127,6 @@
     
 	return self;
 }
-
-
-
 
 
 -(void)dealloc{
@@ -299,7 +294,5 @@
     uri = s;
     [uri retain];
 }
-
-
 
 @end
