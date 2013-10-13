@@ -36,29 +36,17 @@
 #import "SSDPDB_ObjC.h"
 #import "UPnPDB.h"
 #import "DeviceFactory.h"
-#import "SoapActionFactory.h"
 #import "MediaRenderer1Device.h"
 #import "UPnPEvents.h"
 #import "MediaPlaylist.h"
 
-
-@interface UPnPManager : NSObject {
-	SSDPDB_ObjC *SSDP;
-	UPnPDB *DB;
-	DeviceFactory* deviceFactory;
-	SoapActionFactory* soapFactory;
-	UPnPEvents *upnpEvents;
-
-	MediaRenderer1Device *defaultMediaRenderer1;	
-	MediaPlaylist *defaultPlaylist;
-}
+@interface UPnPManager : NSObject
 
 +(UPnPManager*)GetInstance;
 
 @property(readonly) SSDPDB_ObjC *SSDP;
 @property(readonly) UPnPDB *DB;
 @property(readonly) DeviceFactory* deviceFactory;
-@property(readonly) SoapActionFactory* soapFactory;
 @property(retain, nonatomic) MediaRenderer1Device *defaultMediaRenderer1;
 @property(readonly) UPnPEvents *upnpEvents;
 @property(readonly) MediaPlaylist *defaultPlaylist;
